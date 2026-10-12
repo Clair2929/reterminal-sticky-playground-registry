@@ -17,13 +17,15 @@ The author does not publish the source code. The firmware binary is public and
 may be used and redistributed freely. Third-party components remain covered by
 their respective licenses.
 
-The required `source.url` metadata field points to the official project website
-as the project provenance link. It is **not a public source repository**. This
-submission asks the Registry maintainers to review the closed-source,
-freely redistributable firmware package on that basis. It makes no claim of
-an open-source license or a coordinated Seeed partnership.
+The `source.url` metadata field points to the official project website as the
+project provenance link. It is **not a public source repository**. This partner
+entry distributes the author's firmware binary under the terms in LICENSE.txt;
+it makes no claim of an open-source license.
 
-## Preview and demonstration
+## Official logo and device demonstration
+
+The Partner Firmware card uses the official EDC Book logo in
+[`assets/logo.png`](assets/logo.png).
 
 ![EDC Book running on a physical reTerminal Sticky](assets/preview.jpg)
 
