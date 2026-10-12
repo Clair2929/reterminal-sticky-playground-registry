@@ -6,7 +6,7 @@ books, supports Chinese vertical typesetting, and keeps bookmarks and reading
 progress. Books are stored on a microSD card. Wi-Fi file management and
 configuration are optional; reading does not require a cloud service.
 
-- Author: [Meng Xi You A You](https://github.com/mengxiyou)
+- Author: [mengxiyou](https://github.com/mengxiyou)
 - Project, documentation, and support: [edcbook.cn](https://edcbook.cn/)
 - Package: firmware-only, version **3.1.0**
 - License: **LicenseRef-EDCBook-Firmware**, described in [LICENSE.txt](LICENSE.txt)
