@@ -2,9 +2,8 @@
   "schemaVersion": 1,
   "id": "edcbook",
   "name": "EDC Book",
-  "group": "community",
-  "catalogSection": "community",
-  "category": "ereader",
+  "group": "partner",
+  "catalogSection": "platform",
   "mode": "flash",
   "status": "stable",
   "summary": "An offline e-reader with flexible typography, Chinese vertical typesetting, and touch controls for reTerminal Sticky.",
@@ -30,10 +29,11 @@
     "notes": "Tested on a physical reTerminal Sticky (ESP32-S3); hardware revision was not reported. This package uses a 16 MiB flash layout. A microSD card is used for books. USB supports firmware installation, not USB mass-storage file transfer."
   },
   "assets": {
-    "preview": "assets/preview.jpg",
-    "previewAlt": "A physical reTerminal Sticky displaying a Chinese book in EDC Book's vertical reading layout."
+    "logo": "assets/logo.png",
+    "preview": "assets/logo.png",
+    "previewAlt": "EDC Book official logo"
   },
-  "tags": ["ereader", "offline", "epub", "chinese", "touch"],
+  "tags": ["ereader", "partner", "offline", "epub", "chinese", "touch"],
   "flash": {
     "versions": [
       {
