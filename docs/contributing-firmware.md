@@ -238,7 +238,7 @@ entries are coordinated with Seeed.
 | `name` | string | Yes | 1–80 chars | Card title shown on the website |
 | `group` | string | Yes | `official`, `partner`, `community` | `community` |
 | `catalogSection` | string | Yes | `official`, `platform`, `community`, `draft` | `community`. Cards in `draft` are not published |
-| `category` | string | Required for `community` | `ereader`, `productivity`, `personal`, `weather`, `finance`, `tools`, `fun`, `smart-home`, `other` | The filter that shows your card; see the table below |
+| `category` | string | Required for `community` | `ereader`, `productivity`, `writing`, `personal`, `weather`, `finance`, `tools`, `fun`, `smart-home`, `other` | The filter that shows your card; see the table below |
 | `mode` | string | Yes | `flash`, `external`, `template`, `download` | `flash` (browser flashing). The other modes are reserved for coordinated entries |
 | `status` | string | Yes | `experimental`, `beta`, `stable` | Project maturity; shown as a badge |
 | `summary` | string | Yes | 1–140 chars | One sentence under the title |
@@ -251,6 +251,7 @@ Community firmware categories:
 |---|---|---|
 | `ereader` | eReader | Book, article, and document readers |
 | `productivity` | Productivity | Task lists, calendars, notes, timers, dashboards for work |
+| `writing` | Writing | Handwritten or typed notes, journals, and writing tools |
 | `personal` | Personal | Habit trackers, prayer times, journals, personal reminders |
 | `weather` | Weather | Weather, air quality, tides, forecasts |
 | `finance` | Finance | Prices, portfolios, budgets |
@@ -620,7 +621,7 @@ against the files committed in the PR.
 | `firmwares/my-firmware: is missing firmware.json` | File not created or misnamed | Create `firmwares/my-firmware/firmware.json` |
 | `...firmware.json: contains unsupported field "..."` | A key that is not in the field reference | Remove it or fix the spelling |
 | `...firmware.json.id: must match the directory name "..."` | `id` differs from the directory | Make them identical |
-| `...firmware.json.category: is required for community firmware entries` | Missing `category` | Add one of the eight values |
+| `...firmware.json.category: is required for community firmware entries` | Missing `category` | Add one of the ten values |
 | `...firmware.json.author: is required for community firmware` | Missing `author` | Add `author.name` |
 | `...firmware.json.source.license: is required for firmware-only packages` | Firmware-only without a license id | Add `source.license` |
 | `...firmware.json.build: is required when source.path is provided` | Source contribution without `build` | Add the `build` object |

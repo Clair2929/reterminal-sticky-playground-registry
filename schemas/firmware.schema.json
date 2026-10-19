@@ -59,6 +59,7 @@
       "enum": [
         "ereader",
         "productivity",
+        "writing",
         "personal",
         "weather",
         "finance",
